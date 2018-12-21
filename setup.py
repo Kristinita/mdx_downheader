@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup, find_packages
 from os import path
+from setuptools import setup
 
 HERE = path.abspath(path.dirname(__file__))
 
 setup(
     name='markdown_downheader',
-    version = '1.0.1',
+    version='1.2.0',
     keywords='text filter markdown html headers',
     description='Python markdown extension to downgrade headers',
     long_description='Python Markdown extension to downgrade headers, for example, from h1 to h2',
-    author= 'Cristian Prieto',
+    author='Cristian Prieto',
     author_email='me@cprieto.com',
     url='http://github.com/cprieto/mdx_downheader',
     py_modules=['mdx_downheader'],
